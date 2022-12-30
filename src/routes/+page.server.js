@@ -1,3 +1,6 @@
+export const prerender = true;
+export const ssr = false;
+
 export function load() {
   // Get dates of 2023
   const Jan1st = 1672531200000;
