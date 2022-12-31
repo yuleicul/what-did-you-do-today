@@ -1,5 +1,4 @@
 export const prerender = true;
-export const ssr = false;
 
 export function load() {
   // Get dates of 2023
