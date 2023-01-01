@@ -19,20 +19,16 @@ export function load() {
     svelte: 'vscode-icons:file-type-svelte',
     english: 'icon-park:english',
     dance: 'fxemoji:dancer',
-    bicycle: 'emojione-v1:bicycle'
+    bicycle: 'emojione-v1:bicycle',
+    dumpling: 'fluent-emoji-flat:dumpling'
   };
 
   const eventObject = {
     '1/1/2023': [
       {
-        description: 'Learn Svelte & SvelteKit',
-        icon: iconObject.svelte,
-        type: 'Proactive work'
-      },
-      {
-        description: 'Learn English with TV Shows',
-        icon: iconObject.english,
-        type: 'Reactive work'
+        description: 'Made dumplings',
+        icon: iconObject.dumpling,
+        type: 'L&Y'
       }
     ]
   };
