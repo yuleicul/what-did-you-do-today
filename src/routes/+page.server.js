@@ -30,6 +30,13 @@ export function load() {
         icon: iconObject.dumpling,
         type: 'L&Y'
       }
+    ],
+    '1/2/2023': [
+      {
+        description: 'Went shopping',
+        icon: 'ph:shopping-cart',
+        type: 'L&Y'
+      }
     ]
   };
 
