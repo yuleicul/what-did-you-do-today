@@ -13,14 +13,18 @@ export function load() {
   }
 
   // Get events
-  const TYPES = ['Proactive work', 'Reactive work', 'Exercise', 'L&Y', 'Family time'];
+  const TYPES = ['Proactive work', 'English', 'Exercise', 'L&Y', 'Family time'];
 
   const iconObject = {
     svelte: 'vscode-icons:file-type-svelte',
     english: 'icon-park:english',
     dance: 'fxemoji:dancer',
     bicycle: 'emojione-v1:bicycle',
-    dumpling: 'fluent-emoji-flat:dumpling'
+    dumpling: 'fluent-emoji-flat:dumpling',
+    shopping: 'ph:shopping-cart',
+    ketcher: 'vscode-icons:file-type-moleculer',
+    javascript: 'logos:javascript',
+    tv: 'uil:tv-retro'
   };
 
   const eventObject = {
@@ -34,8 +38,25 @@ export function load() {
     '1/2/2023': [
       {
         description: 'Went shopping',
-        icon: 'ph:shopping-cart',
+        icon: iconObject.shopping,
         type: 'L&Y'
+      }
+    ],
+    '1/3/2023': [
+      {
+        description: 'Drew the logic of how InfoPanel works in Ketcher',
+        icon: iconObject.ketcher,
+        type: 'Proactive work'
+      },
+      {
+        description: 'Learned how to make a lexer for a homemade programming language',
+        icon: iconObject.javascript,
+        type: 'Proactive work'
+      },
+      {
+        description: 'Learned English with Modern Family S01 E06',
+        icon: iconObject.tv,
+        type: 'English'
       }
     ]
   };
