@@ -66,6 +66,13 @@ export function load() {
         icon: iconObject.testingLibrary,
         type: 'Tech learning'
       }
+    ],
+    '1/5/2023': [
+      {
+        description: 'Learned knowledge of layerXY, clientXY, scrollTop and scrollLeft. To learn: Raphael.js and RxJS',
+        icon: iconObject.ketcher,
+        type: 'Proactive work'
+      }
     ]
   };
 
