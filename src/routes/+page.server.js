@@ -73,6 +73,13 @@ export function load() {
         icon: iconObject.ketcher,
         type: 'Proactive work'
       }
+    ],
+    '1/6/2023': [
+      {
+        description: 'CSS is powerful...... I am poor. (The whole day\'s work finally is just one line css code)',
+        icon: iconObject.ketcher,
+        type: 'Proactive work'
+      }
     ]
   };
 
