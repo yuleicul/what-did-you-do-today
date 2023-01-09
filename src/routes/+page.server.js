@@ -80,6 +80,18 @@ export function load() {
         icon: iconObject.ketcher,
         type: 'Proactive work'
       }
+    ],
+    '1/9/2023': [
+      {
+        description: 'Attachment atoms can be found in the .sdf file",
+        icon: iconObject.ketcher,
+        type: 'Proactive work'
+      },
+      {
+        description: 'Read out loud React blog',
+        icon: iconObject.english,
+        type: 'English'
+      }
     ]
   };
 
