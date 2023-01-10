@@ -83,7 +83,7 @@ export function load() {
     ],
     '1/9/2023': [
       {
-        description: 'Attachment atoms can be found in the .sdf file",
+        description: 'Attachment atoms can be found in the .sdf file',
         icon: iconObject.ketcher,
         type: 'Proactive work'
       },
