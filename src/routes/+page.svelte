@@ -4,12 +4,15 @@
 
   export let data;
   let selectedType = 'all';
-  let expandedEvents = [];
 
   $: dates = Object.keys(data.dateObjectOf2023);
+
   $: eventObject = data.eventObject;
+  $: expandedEvents = Object.values(eventObject)
+    .flat()
+    .filter((event) => selectedType === 'all' || event.type === selectedType);
+
   $: TYPES = data.TYPES;
-  $: selectedType, (expandedEvents = []);
 </script>
 
 <div>
@@ -51,11 +54,14 @@
   </div>
 
   <div class="expand">
-    {#each expandedEvents as { type, description, icon }}
+    {#each expandedEvents as { type, description, icon, date }}
       <div class="expand-event">
-        <Icon {icon} width="20" height="20" />
-        <div>[{type}]</div>
-        <div>{description}</div>
+        <div class="date">{date}</div>
+        <div class="hashtag">#{type}</div>
+        <div class="description">
+          <Icon {icon} width="16" height="16" />
+          <div>{description}</div>
+        </div>
       </div>
     {/each}
   </div>
@@ -115,8 +121,23 @@
   }
 
   .expand-event {
+    margin: 10px;
+  }
+
+  .expand-event > .date {
+    font-size: 12px;
+    color: #536471;
+  }
+
+  .expand-event > .hashtag {
+    font-size: 12px;
+    color: rgb(40, 138, 66);
+  }
+
+  .expand-event > .description {
+    font-size: 13px;
     display: flex;
-    font-size: 14px;
     align-items: center;
+    gap: 5px;
   }
 </style>

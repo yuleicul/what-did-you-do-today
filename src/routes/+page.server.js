@@ -33,64 +33,77 @@ export function load() {
       {
         description: 'Made dumplings',
         icon: iconObject.dumpling,
-        type: 'L&Y'
+        type: 'L&Y',
+        date: '1/1/2023'
       }
     ],
     '1/2/2023': [
       {
         description: 'Went shopping',
         icon: iconObject.shopping,
-        type: 'L&Y'
+        type: 'L&Y',
+        date: '1/2/2023'
       }
     ],
     '1/3/2023': [
       {
         description: 'Drew the logic of how InfoPanel works in Ketcher',
         icon: iconObject.ketcher,
-        type: 'Proactive work'
+        type: 'Proactive work',
+        date: '1/3/2023'
       },
       {
         description: 'Learned how to make a lexer for a homemade programming language',
         icon: iconObject.javascript,
-        type: 'Tech learning'
+        type: 'Tech learning',
+        date: '1/3/2023'
       }
     ],
     '1/4/2023': [
       {
-        description: 'Figured out how states flow in Ketcher (editor.dispatch -> redux dispatch -> update component states by `connect`)',
+        description:
+          'Figured out how states flow in Ketcher (editor.dispatch -> redux dispatch -> update component states by `connect`)',
         icon: iconObject.ketcher,
-        type: 'Proactive work'
+        type: 'Proactive work',
+        date: '1/4/2023'
       },
       {
-        description: 'Knew how to use Jest with Rollup (@babel/preset-env), but don\'t know why',
+        description: "Knew how to use Jest with Rollup (@babel/preset-env), but don't know why",
         icon: iconObject.testingLibrary,
-        type: 'Tech learning'
+        type: 'Tech learning',
+        date: '1/4/2023'
       }
     ],
     '1/5/2023': [
       {
-        description: 'Learned knowledge of layerXY, clientXY, scrollTop and scrollLeft. To learn: Raphael.js and RxJS',
+        description:
+          'Learned knowledge of layerXY, clientXY, scrollTop and scrollLeft. To learn: Raphael.js and RxJS',
         icon: iconObject.ketcher,
-        type: 'Proactive work'
+        type: 'Proactive work',
+        date: '1/5/2023'
       }
     ],
     '1/6/2023': [
       {
-        description: 'CSS is powerful...... I am poor. (The whole day\'s work finally is just one line css code)',
+        description:
+          "CSS is powerful...... I am poor. (The whole day's work finally is just one line css code)",
         icon: iconObject.ketcher,
-        type: 'Proactive work'
+        type: 'Proactive work',
+        date: '1/6/2023'
       }
     ],
     '1/9/2023': [
       {
         description: 'Attachment atoms can be found in the .sdf file',
         icon: iconObject.ketcher,
-        type: 'Proactive work'
+        type: 'Proactive work',
+        date: '1/9/2023'
       },
       {
         description: 'Read out loud React blog',
         icon: iconObject.english,
-        type: 'English'
+        type: 'English',
+        date: '1/9/2023'
       }
     ]
   };
