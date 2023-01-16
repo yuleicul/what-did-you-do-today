@@ -25,7 +25,11 @@ export function load() {
     ketcher: 'vscode-icons:file-type-moleculer',
     javascript: 'logos:javascript',
     tv: 'uil:tv-retro',
-    testingLibrary: 'logos:testing-library'
+    testingLibrary: 'logos:testing-library',
+    podcast: 'pajamas:podcast',
+    travel: 'mdi:travel',
+    discuss: 'healthicons:group-discussion-meeting-outline',
+    coffee: 'iconoir:coffee-cup'
   };
 
   const eventObject = {
@@ -104,6 +108,42 @@ export function load() {
         icon: iconObject.english,
         type: 'English',
         date: '1/9/2023'
+      }
+    ],
+    '1/12/2023': [
+      {
+        description: 'Frontend happy hour~',
+        icon: iconObject.podcast,
+        type: 'English',
+        date: '1/12/2023'
+      }
+    ],
+    '1/14/2023': [
+      {
+        description: 'Took train...',
+        icon: iconObject.travel,
+        type: 'L&Y',
+        date: '1/14/2023'
+      }
+    ],
+    '1/16/2023': [
+      {
+        description: 'Actually, OOP is good sometimes',
+        icon: iconObject.ketcher,
+        type: 'Proactive work',
+        date: '1/16/2023'
+      },
+      {
+        description: 'Spent two hours discussing SSR, Routing, Testing with Addy, my mentor and great partner',
+        icon: iconObject.discuss,
+        type: 'Tech learning',
+        date: '1/16/2023'
+      },
+      {
+        description: 'Coffee time, but mad at me due to work... I am so sorry',
+        icon: iconObject.coffee,
+        type: 'L&Y',
+        date: '1/16/2023'
       }
     ]
   };
