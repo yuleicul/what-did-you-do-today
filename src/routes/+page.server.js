@@ -29,7 +29,10 @@ export function load() {
     podcast: 'pajamas:podcast',
     travel: 'mdi:travel',
     discuss: 'healthicons:group-discussion-meeting-outline',
-    coffee: 'iconoir:coffee-cup'
+    coffee: 'iconoir:coffee-cup',
+    food: 'mdi:food-fork-drink',
+    wedding: 'fxemoji:wedding',
+    game: 'icon-park:game-ps'
   };
 
   const eventObject = {
@@ -145,6 +148,66 @@ export function load() {
         type: 'L&Y',
         date: '1/16/2023'
       }
+    ],
+    '1/25/2023': [
+      {
+        description: 'Play board games with my nephews',
+        icon: iconObject.game,
+        type: 'Family time',
+        date: '1/25/2023'
+      }
+    ],
+    '1/26/2023': [
+      {
+        description: 'Cousin\'s wedding. I was crying when my mom was speaking to my cousin',
+        icon: iconObject.wedding,
+        type: 'Family time',
+        date: '1/26/2023'
+      }
+    ],
+    '1/27/2023': [
+      {
+        description: '久别重逢 & 马临羊肉火锅',
+        icon: iconObject.food,
+        type: 'L&Y',
+        date: '1/27/2023'
+      }
+    ],
+    '1/28/2023': [
+      {
+        description: 'S-group combination',
+        icon: iconObject.ketcher,
+        type: 'Proactive work',
+        date: '1/28/2023'
+      },
+      {
+        description: '螺蛳粉放炸蛋绝了 👏',
+        icon: iconObject.food,
+        type: 'L&Y',
+        date: '1/28/2023'
+      }
+    ],
+    '1/29/2023': [
+      {
+        description: 'Excalidraw is reeeeeeeeaaally helpful to think of the programming logic',
+        icon: iconObject.ketcher,
+        type: 'Proactive work',
+        date: '1/29/2023'
+      },
+      {
+        description: 'Rabbit hotpot 👏👏👏',
+        icon: iconObject.food,
+        type: 'L&Y',
+        date: '1/29/2023'
+      }
+    ],
+    '1/30/2023': [
+      {
+        description: 'S-group combination',
+        icon: iconObject.ketcher,
+        type: 'Proactive work',
+        date: '1/30/2023'
+      } 
     ]
   };
 
