@@ -54,7 +54,7 @@
   </div>
 
   <div class="expand">
-    {#each expandedEvents as { type, description, icon, date }}
+    {#each expandedEvents.slice().reverse() as { type, description, icon, date }}
       <div class="expand-event">
         <div class="date">{date}</div>
         <div class="hashtag">#{type}</div>
