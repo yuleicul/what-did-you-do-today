@@ -32,7 +32,8 @@ export function load() {
     coffee: 'iconoir:coffee-cup',
     food: 'mdi:food-fork-drink',
     wedding: 'fxemoji:wedding',
-    game: 'icon-park:game-ps'
+    game: 'icon-park:game-ps',
+    qwik: 'logos:qwik'
   };
 
   const eventObject = {
@@ -208,7 +209,35 @@ export function load() {
         type: 'Proactive work',
         date: '1/30/2023'
       } 
-    ]
+    ],
+    '1/31/2023': [
+      {
+        description: '',
+        icon: iconObject.ketcher,
+        type: 'Proactive work',
+        date: '1/31/2023'
+      },
+      {
+        description: 'Watched two talks on JSConf about event loop',
+        icon: iconObject.javascript,
+        type: 'Tech learning',
+        date: '1/31/2023'
+      }
+    ],
+    '2/1/2023': [
+      {
+        description: '',
+        icon: iconObject.ketcher,
+        type: 'Proactive work',
+        date: '2/1/2023'
+      },
+      {
+        description: 'Tejas\'s video about Qwik is good',
+        icon: iconObject.qwik,
+        type: 'Tech learning',
+        date: '2/1/2023'
+      }
+    ],
   };
 
   return { dateObjectOf2023, eventObject, TYPES };
