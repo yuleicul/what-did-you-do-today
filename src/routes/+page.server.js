@@ -238,6 +238,14 @@ export function load() {
         date: '2/1/2023'
       }
     ],
+    '2/2/2023': [
+      {
+        description: '',
+        icon: iconObject.ketcher,
+        type: 'Proactive work',
+        date: '2/2/2023'
+      }
+    ],
   };
 
   return { dateObjectOf2023, eventObject, TYPES };
